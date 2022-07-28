@@ -79,13 +79,12 @@ input {
     margin-top: 5px;
 }
 
- /*.password-container {
+ .password-container {
     display: flex;
     justify-content: space-between;
-} */
+} 
 
 .password-container p{
-    display: inline-block;
     width: 211px;
     height: 40px;
     color: #55F991;
@@ -97,9 +96,9 @@ input {
     text-align: center;
 }
 
-#pswd2 {
+   /* #pswd2 {
     margin-left: 20px;
-}
+}   */
 
 .btn {
     display: block;
