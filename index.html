@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Password generator</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="my-script.js" defer></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="content-only">
+                <h1>Generate a<br> <span>random password</span></h1>
+                <p class="tag">Never use an insecure password again</p>
+                <label for="password-length">Enter the length of the password you want</label>
+                <input placeholder="8-18" id="password-length" type="text">
+                <button class="btn"  onclick="generate()">Generate passwords</button>
+                <hr>
+                <div class="password-container">
+                    <p id="pswd1"></p>
+                    <p id="pswd2"></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
